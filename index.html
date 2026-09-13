@@ -35,7 +35,6 @@
     left: 4mm;
     right: 4mm;
     bottom: 7mm;
-    border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 6mm 4mm;
     z-index: 2;
     display: flex;
@@ -53,9 +52,8 @@
     height: 100%;
     pointer-events: none;
     z-index: 1;
-    
     background-image: url('tree.png');
-    background-size: contain;
+    background-size: 110%;
     background-position: center center;
     background-repeat: no-repeat;
     opacity: 0.35;
@@ -317,9 +315,10 @@
 </head>
 <body>
 
+  <div class="bg-tree-container"></div>
+
 <div class="outer-frame">
 
-  <div class="bg-tree-container"></div>
 
   <div class="header">
     <div class="main-title">Northern part of the prefecture Vol.4</div>
